@@ -1,0 +1,36 @@
+{
+  "name": "@nacelle/nacelle-lucky-orange-nuxt-module",
+  "version": "0.0.1",
+  "description": "Integrates Lucky Orange into your Nacelle Nuxt project",
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "Nacelle"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/getnacelle/nacelle-lucky-orange-nuxt-module",
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue example lib test",
+    "test": "jest",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@nacelle/eslint-config-nacelle": "^1.0.9",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "nuxt": "^2.12.2"
+  }
+}

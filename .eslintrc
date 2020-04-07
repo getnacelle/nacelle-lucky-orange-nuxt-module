@@ -1,0 +1,4 @@
+{
+  "extends": ["@nacelle/nacelle"],
+  "plugins": ["ejs"]
+}
